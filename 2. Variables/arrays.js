@@ -18,5 +18,20 @@ console.log(ages)
 ages.pop() //remove last
 console.log();
 
-console.log(Array.isArray(ages))
+//concat arrays
+let arr1=[10,20,30,40]
+let arr2=[1,2,3,4]
+let arr3=arr1.concat(arr2)
+console.log(arr3)
 
+console.log(Array.isArray(ages))  // check if array
+
+
+function length(str)
+{
+    console.log(str.length)
+}
+
+let arr=["abc","apple","zebra","swefwggdg"]
+
+arr.forEach(length) // call a function for each element of array
